@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+
+body {
+  background: linear-gradient(to right top, #BADA55 50%, #DF8A30 50%);
+  margin: 0;
+  position: relative;
+  z-index: 10;
+  font-family: 'Mukta', sans-serif;
+}
+
+body::after {
+  content:'';
+  background-color:#fff;
+  position: fixed;
+  top:15px;
+  width:100%;
+  height:100%;
+  z-index: -10;
+ 
+}
+
+#id {
+  padding:2% 5%;
+}
